@@ -1,0 +1,13 @@
+@mixin flex-center-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin btn-animated {
+  transition: border-radius linear 200ms, box-shadow linear 200ms;
+	--bsw-default: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	--bsw-after: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	--brd-default: var(--brd-radius);
+	--brd-after: 0.2em;
+}
